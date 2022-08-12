@@ -1,0 +1,121 @@
+# Projet
+
+Le nom d'un projet sera limité à 30 caractères
+La description du projet sera limitée à 400 caractères ou peut-être infinie (infinie pour l'instant)
+
+[x] Enregistrer un projet
+[x] Lister des projets
+[x] Revoir l'interface d'accueil
+[x] Faire la validation du formulaire d'envoie des projets - Tester avec livewire
+[x] Renforcer la plateforme pour premier deploiment
+	- Cacher le lien d'inscription (Fonctionnalité abondonnée car non réalisable)
+	- Créer un footer [x]
+	- Créer une page à propos (Lors d'une prochaine - Mise à jour) 
+	- Revoir le texte de la page d'accueil [x]
+	- Ajoutez une image à la page d'accueil (Lors d'une prochaine - Mise à jour) 
+------------------------------------------------------------
+ # Footer la invité
+ - Nom du créateur
+ - Email du créateur
+ - Numéro du créateur
+ - version actuelle
+-------------------------------------------------------------
+main_tag, tag principale caractérisant le projet
+-------------------------------------------------------------
+idée; encours; terminé;
+-------------------------------------------------------------
+type
+-------------------------------------------------------------
+Coordoonées du créateurs
+-------------------------------------------------------------
+Associer des liens au projet
+-------------------------------------------------------------
+# Bazar
+------------------------------------------------------------------------------------------------------------------------------------------
+
+# Brainstorming
+
+- Ajouter une breadcumb de navigation
+
+- Faire une page de profil pour les utilisateurs
+
+- Ajouter une fonctionnalité qui permet de faire du déposer copier-coller en temps réel
+
+
+- Supprimer, modifier, ....
+- Ajouter un typing de plusieurs texte  à la page d'accueil 
+
+- Créer le concept d'exposition 
+
+- Faire une administration pour :
+-- Voir le nombres d'utilisateurs
+-- Voir le nombres de projet 
+
+
+- Interface d'administration pour gérer : 
+-- les catégories
+-- les tags 
+
+- Ajouter un compteur de visites 
+
+- Ajouter un compteur de vue. 
+
+- l'utilisateur pourrais préciser ses spécialités ou un domaine dans lequel il se sent bien. Cela permettra de mieux filtrer les projets à afficher 
+
+- Faire une fonctionnalité pour partager des liens
+--------------------------------------------------------------
+
+Projet à un ou plusieurs domaine :: Catégorie (Domaine) 
+Projet des déployer sur un support quel surpport :: Livrable :: Application web/mobile/ Logiciel de bureau, Framework, Progiciel, Modèle de Marchine Learning, librairie
+:: Plateforme - Windows, Linux, MAC OS, Android, Iphone, Web, Multi-plateforme, Système embarqué, Mobile multiplateforme, Bureau multiplateforme, Quelconque, Autre
+
+---------------------------------------------------------------
+Catégorie: Education, Santé, Communication, Transport, Sport, Actualité, Outil, Outil developpement, Musique, Finance, Transfert d'argent, Sécurité, Traduction, Voyage, Sport, Intelligence artificielle
+
+Plateforme: Web, Mobile, Bureau, Multiplateforme
+----------------------------------------------------------------
+Livrable: [Logiciel, Application], [Framework, Code source] 
+----------------------------------------------------------------
+Catégorie technique: IA (Inteligence artificielle), AR (Réalité Augmentée), Outil developpement
+Plateforme: Web, Mobile, Bureau, Multi-plateforme
+----------------------------------------------------------------
+Trouver un outil de toast meilleur que sweetalert
+---------------------------------------------------------------
+A chaque fois qu'on clique sur un projet, on mémorise ses specs pour faire des recommandations
+------------------------------------------------------------------------------------------------
+Mettre en place un système de réputation (La version la plus simple, le plus réputé est celui qui la plus de poste)
+Le projet le plus réputé est celui qui a la plus de visite
+Mettre en place une fil d'actualité
+------------------------------------------------------------------------------------------------
+Faire un modal pour expliquer ce qu'est est une bonne présentation de projets
+------------------------------------------------------------------------------------------------
+Privater les projets (!) / Mon Therapete Virtuels
+-------------------------------------------------------------------------------------------------
+Admettre les templates dans logizars
+-------------------------------------------------------------------------------------------------
+Permettre à des personnes de partager un projet qui n'est pas le leur
+-------------------------------------------------------------------------------------------------
+Augmenter la taille des mises à jours
+-------------------------------------------------------------------------------------------------
+Faire en sorte que le menu des catégories soit fixe
+Faire une historique de recherche
+Fusionner les fichiers de migrations en intégrant les mises à jour à la création
+-------------------------------------------------------------------------------------------------
+AJouter cette propriété aux caractéristiques: envergure : petit projet, moyen projet, gros projet
+-------------------------------------------------------------------------------------------------
+Intégrer la notion de catégories et tags dans le moteur de recherche
+------------------------------------------------------------------------------------------------
+Faire du freelancer et de la recherche de jobs IT sur Logizar
+Faire une option pour la rédaction d'articiles dev ou pour la suggestion d'articile
+------------------------------------------------------------------------------------------------
+(Site web, Github, Demo, Lien de téléchargement) Autres pour le projet
+Revoir le formulaire de création de projet
+------------------------------------------------------------------------------------------------
+Créer un compte à l'aide de linkedin
+Créer un système qui permet aux utilisateurs de faire des posts
+Créer un système qui permet au utilisateurs de suivre un personne ou un projet
+--------------------------------------------------------------------------------------------------
+Ajouter la notion de pays à Logizar
+--------------------------------------------------------------------------------------------------
+Créer une historique de recherche
+Créer une boîte de lien. Permet d'enregistrer des liens utiles titrés

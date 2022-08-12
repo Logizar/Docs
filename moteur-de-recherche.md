@@ -1,0 +1,3 @@
+- On extrait les mots clés de la requete de recherche
+- On evalue le critere LIKE sur chaque clée
+- On trie en fonction du dégré de pertinence en langage naturel

@@ -1,0 +1,38 @@
+[x] routes/web.php 17-07-2022
+[x] app/Http/Controllers/Admin/AdminController.php 17-07-2022
+[x] app/Http/Middleware/AdminMiddleware.php 17-07-2022
+[x] app/Http/Controllers/Search/SearchController.php 17-07-2022 - 18-07-2022
+[x] resources/views/search/basic.blade.php 17-07-2022
+[x] resources/views/livewire/project/project-create-form.blade.php 18-07-2022 - 24-07-2022
+[x] app/Http/Livewire/ProjectCreateForm.php 18-07-2022 - 24-07-2022
+[x] app/Http/Controllers/ProjectController.php 24-07-2022
+[x] resources/views/project/update.blade.php 24-07-2022
+[x] app/Http/Livewire/Projects/Update/ProjectUpdateInformations.php 25-07-2022
+[x] resources/views/livewire/projects/update/project-update-informations.blade.php 25-07-2022
+[x] app/Http/Livewire/Projects/Forms/CategoriesSelectManager.php 26-07-2022
+[x] app/Http/Livewire/Forms/TagsInput.php 26-07-2022
+[x] resources/views/livewire/forms/tags-input.blade.php 26-07-2022
+[x] app/Http/Livewire/Projects/Update/ProjectUpdateCategorization.php 26-07-2022
+[x] resources/views/livewire/projects/update/project-update-categorization.blade.php 25-07-2022 - 26-07-2022
+[x] app/Http/Livewire/Projects/Update/ProjectUpdateSpecifications.php 27-07-2022
+[x] resources/views/livewire/projects/update/project-update-specifications.blade.php 25-07-2022 - 27-07-2022
+[x] app/Http/Livewire/Projects/Update/ProjectUpdateAccessibility.php 25-07-2022
+[x] resources/views/livewire/projects/update/project-update-accessibility.blade.php 25-07-2022 - 26-07-2022
+[x] resources/views/index.blade.php 29-07-2022
+[x] app/Http/Livewire/Menus/Categorization/CategorizationSidebar.php 29-07-2022
+[x] resources/views/livewire/menus/categorization/categorization-sidebar.blade.php 29-07-2022
+[x] app/Http/Livewire/Projects/ProjectComplexCard.php 29-07-2022
+[x] resources/views/livewire/projects/project-complex-card.blade.php 29-07-2022
+[x] app/Http/Livewire/Projects/ProjectComplexCardList.php 29-07-2022
+[x] resources/views/livewire/projects/project-complex-card-list.blade.php 29-07-2022
+[x] resources/views/components/footer.blade.php 29-07-2022
+[x] resources/views/navigation-menu.blade.php 29-07-2022
+[x] resources/views/project/project-show.blade.php 29-07-2022
+[x] app/Http/Livewire/Projects/ProjectViewForm.php 29-07-2022
+[x] resources/views/livewire/projects/project-view-form.blade.php 29-07-2022
+[x] app/Http/Livewire/Projects/Delete/ProjectDeleteButton.php 29-07-2022
+[x] app/Http/Controllers/DashboardController.php 29-07-2022
+[x] resources/views/dashboard.blade.php 29-07-2022
+[x] resources/views/livewire/project-user-list-simple-box.blade.php 29-07-2022
+
+[] app/Http/Controllers/Admin/AdminController.php
