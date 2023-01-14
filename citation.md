@@ -39,3 +39,12 @@ de trouver des projets en fonction d'un domaine en particulier, ce qui est possi
 Utiliser la Richesse culturelle de l'Afrique pour proposer des produits/services qui parlent Africain
 
 Découvez ce que font les développeurs de votre localité
+
+
+----------------
+
+Logizar Community soit Logizar CT, est une plateforme opensource permettant à des créateurs de solutions logicielles de partager leurs peu importe l'état du projet créations. L'objectif de Logizar est de sauvegarder et de catégoriser le maximum de création informatique de sorte à créer un point de référence pour la recherche, la découverte et le partage de solutions informatiques gratuites comme commercial.
+
+----------------
+
+Plateforme de partage de réalisation informatique
