@@ -4,8 +4,14 @@
 
 ## 0.0.1.3-alpha
 
-- [] Fixer la barre de sélection des catégories (15/06/2022)
+### 29/01/2023
 
+- [x] Augmentation de la taille maximal d'un résumé d'un projet à 100 (29/01/2023)
+- [x] Ajout du statut de projet *Aucun* (29/01/2023)
+
+### < 29/01/2023
+
+- [] Fixer la barre de sélection des catégories (15/06/2022)
 - [] Correction de bugs approfondie et review
 
 - [x] Le lien du tableau de bord apparait lorsqu'on est pas connecté (11/06/2022) -
@@ -23,12 +29,12 @@
 -----------------------------------------------------
 
 - [] Ajouter un logo au projet
-- [] Ajouter un compteur de visites 
-- [] Ajouter la notion de d'envergures
-- [] Compter le nombre de clique sur un projet
+- [] Ajouter un compteur de visites   (Pas prioritaiez)
+- [] Ajouter la notion de d'envergures  (Pas prioritaiez)
+- [] Compter le nombre de clique sur un projet  (Pas prioritaiez)
 
-- [] Améliorer l'interface du tableau de bord
-- [] Ajouter une page à propos
+- [] Améliorer l'interface du tableau de bord  (Pas prioritaire)
+- [] Ajouter une page à propos (Pas prioritaiez)
 
 ## 0.0.1.3-alpha
 
@@ -80,62 +86,59 @@
 	- [x] Ajout les catégories aux composants d'affichage des projets
 	- [x] Ajout d'une section de modification des catégories à la page de modification
 	
-	
 ## Next
 
 - [o] Tags, Stades, Plateforme, Collaborateur, Screenshots, Branding, logo, photo utilisateur	
 
+## Bugs résolu
+
+- [x] Une erreur se produit lorsqu'on ajoute une catégorie vide de type Autre dans le formulaire de création d'un projet (29/01/2023)
+- [x] Augmenter la taille du resumé des projets à 100 (Resolution le: 29/01/2023)
+- [x] Revoir le composant de création des tags (Resolution le: 29/01/2023)
+
 ## Bugs
 
+- [] Sécurité autour de la validation des catégories incomplète. Toutes les conditions de validitée ne sont pas respectées (24/07/2022) | Intégrité
 
-- [] Sécurité autour de la validation des catégories incomplète. Toutes les conditions de validitée ne sont pas respectées (24/07/2022)
+- [] S'il y'a une erreur dans le formulaire de création du projet, le projet risque d'être enristré si l'erreur intervient après la ligne de création du projet. (23/07/2022) | Metier
 
-- [] S'il y'a une erreur dans le formulaire de création du projet, le projet risque d'être enristré si l'erreur intervient après la ligne de création du projet. (23/07/2022)
+- [] Vérifier que les données sont trimées avant d'être insérée en base de données (18/07/2022) | Intégrité
 
-- [] Réduire le texte de l'input du nom de code (23/07/2022)
+- [] Le champs statut et le type de projet n'ont pas de valeur par défaut au niveau de la modification.  (17/07/2022) | Intégrité
 
-- [] Vérifier que les données sont trimées avant d'être insérée en base de données (18/07/2022)
+- [] Corriger le rendu des cartes de projets (16/07/2022) | Design
 
-- [] Le champs statut et le type de projet n'ont pas de valeur par défaut au niveau de la modification.  (17/07/2022)
+- [] Faire un bouton qui permet d'afficher les informations des projets en mode mobile(16/07/2022) | Design
 
-- [] Corriger le rendu des cartes de projets (16/07/2022)
+- [] Limités la taille des urls et autres contenu à risque de dépassement avec des ... (16/07/2022) | Design
 
-- [] Faire un bouton qui permet d'afficher les informations des projets en mode mobile(16/07/2022)
-
-- [] Limités la taille des urls et autres contenu à risque de dépassement avec des ... (16/07/2022)
-
-- [] (Critique) On ne vérifie pas que le statut existe bel et bien (16/07/2022)
-
-- [] Reviser le bugs du formulaire de création de projet (16/07/2022)
+- [] (Critique) On ne vérifie pas que le statut existe bel et bien (16/07/2022) | Intégrité
 
 - [] Gestion des doublons dans les tags (15/07/2022)
 
-- [] Limitée les tags à 5 (15/07/2022)
+- [] Limitée les tags à 10 (15/07/2022)
 
-- [] Vulnérabilité au niveau de la sélection du type et du livrable d'un projet. Pas de contrôle de l'existence des valeurs dans la base de données (15/07/2022)
+- [] Vulnérabilité au niveau de la sélection du type et du livrable d'un projet. Pas de contrôle de l'existence des valeurs dans la base de données (15/07/2022) | Intégrité
 
-- [] Pas de contrôle au niveau des tags, les tags doivent avoir une taille max de 100 caractères et doivent être en petits caractères 15/07/2022)
+- [] Pas de contrôle au niveau des tags, les tags doivent avoir une taille max de 100 caractères et doivent être en petits caractères 15/07/2022) | Intégrité
 
-- [] Gestion des caractères spéciaux au niveau des entrées
+- [] Gestion des caractères spéciaux au niveau des entrées | Intégrité
 
-- [] Gestion des erreurs php des formulaires livewire
+- [] Gestion des erreurs php des formulaires livewire | Intégrité
 
-- [] Revoir le composant de création des tags
+- [] Bien sécuriser les forumlaires des catégories | Intégrité
 
-- [] Bien sécuriser les forumlaires des catégories
+- [] Pas de control de vérification du role administrateur lors de l'ajout d'une catégorie | Intégrité
 
-- [] Pas de control de vérification du role administrateur lors de l'ajout d'une catégorie
+- [] Uniformiser le design des modals, utiliser des composants | Desisgn
 
-- [] Augmenter la taille du resumé des projets à 100
+- [] Mettre en place en place un loader au niveau des interactions instannées | Desisgn
 
-- [] Uniformiser le design des modals, utiliser des composants
+- [] Vérifier que le nom d'une catégorie est unique | Intégrité
 
-- [] Mettre en place en place un loader au niveau des interactions instannées
+- [] Pas de control de l'appartenance du projet avant supression ou modification (15/06/2022) | Intégrité
 
-- [] Vérifier que le nom d'une catégorie est unique
-
-- [] Pas de control de l'appartenance du projet avant supression ou modification (15/06/2022)
-
+- [] Réduire le texte de l'input du nom de code (23/07/2022) | Intégrité
 
 ## Others
 	- [] Créer un outil pour peupler la base de données en local uniquement !!! (Pas obligation)

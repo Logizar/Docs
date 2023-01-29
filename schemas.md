@@ -4,7 +4,7 @@
 	- name, string (30)
 	- user, int, foreignkey(Users.id)
 	- description, text
-	- summary (70)
+	- summary (100)
 	- code_name, string(45), unique # Le code du projet n'est pas unique appliqué de petite variation pour le rendre unique si necessaire. Exemple : logizar.app ou logizar.Les caractères autorisé sont les lettres, chiffres, - .
 	- status, # ENUM in_progress, pause, ended, abort
 	- is_opensource, default(false)
@@ -29,7 +29,8 @@
 	- shortname, string (30)
 	- description, text (100)
 
-- [new] Tags
+- [new] Tags 
 	- name (100)
 	- project_id
 
+Un projet peut avoir au maximum 10 tags
