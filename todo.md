@@ -4,6 +4,13 @@
 
 ## 0.0.1.3-alpha
 
+### En cours
+
+- [] Ajouter un logo au projet
+	- [x] Intégrer la possibilité de mettre des photos sur des projets partout
+	- [] S'assurer que les photos apparaissent partout
+	- [] Ajouter une fonctionnalité permettant d'uploader, modifier et supprimer des photos 
+
 ### 29/01/2023
 
 - [x] Augmentation de la taille maximal d'un résumé d'un projet à 100 (29/01/2023)
@@ -28,11 +35,10 @@
 
 -----------------------------------------------------
 
-- [] Ajouter un logo au projet
 - [] Ajouter un compteur de visites   (Pas prioritaiez)
 - [] Ajouter la notion de d'envergures  (Pas prioritaiez)
 - [] Compter le nombre de clique sur un projet  (Pas prioritaiez)
-
+	
 - [] Améliorer l'interface du tableau de bord  (Pas prioritaire)
 - [] Ajouter une page à propos (Pas prioritaiez)
 
@@ -95,6 +101,7 @@
 - [x] Une erreur se produit lorsqu'on ajoute une catégorie vide de type Autre dans le formulaire de création d'un projet (29/01/2023)
 - [x] Augmenter la taille du resumé des projets à 100 (Resolution le: 29/01/2023)
 - [x] Revoir le composant de création des tags (Resolution le: 29/01/2023)
+- [x] Dans l'administration le modèle de d'ajout d'une catégorie conserve toujours la valeur précédente de son affichage (Resolution le: 29/01/2023)
 
 ## Bugs
 
